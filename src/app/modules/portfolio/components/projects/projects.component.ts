@@ -41,7 +41,7 @@ export class ProjectsComponent {
     {
       src: 'assets/img/projects/vfull.png',
       alt: 'Projeto Vida FullStack',
-      title: 'Vida FullStack 2',
+      title: 'Vida FullStack 3',
       heigth: '51px',
       width: '100px',
       description: '<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p><p>Assumenda repellendus nobis vero expedita at magnam ducimus numquam soluta dolorem doloribus.</p><p>Commodi error quis maiores! Iste temporibus tempore vitae sapiente laborum.</p>',
