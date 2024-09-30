@@ -24,7 +24,7 @@ export class ExperiencesComponent {
         strong: "Desenvolvedor Fron-end",
         p: "DeployUX | Out 2020 - Abr 2022"
       },
-      text: "<p>Durante meu periodo na DeployUX de Outubro de 2020 a Abril de 2022, atuei como desenvolvedor angular, liderando a equipe de desenvolvimento Front-end.</p><p>Minhas responsabilidades no front-end incluíram o uso de Html5, Css3, Javascript, TypeScript, Angular</p><p>Além disso, utilizava ferramentas como GitLab, GitHub e Scrum.</p>"
+      text: "<p>Durante meu periodo na DeployUX de Outubro de 2020 a Abril de 2022, atuei como desenvolvedor angular, liderando a equipe de desenvolvimento Front-end e desenvolvendo o front varios sites, landingpages e alguns sistemas.</p><p>Minhas responsabilidades no front-end incluíram o uso de Html5, Css3, Javascript, TypeScript, Angular</p><p>Além disso, utilizava ferramentas como GitLab, GitHub e Scrum.</p>"
     },
   ]);
 }

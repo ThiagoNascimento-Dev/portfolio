@@ -24,16 +24,16 @@ export class ProjectsComponent {
 
   public arrayProjects = signal<IProjects[]>([
     {
-      src: 'assets/img/projects/vfull.png',
-      alt: 'Projeto Vida FullStack',
-      title: 'Vida FullStack',
-      heigth: '51px',
-      width: '100px',
-      description: '<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p><p>Assumenda repellendus nobis vero expedita at magnam ducimus numquam soluta dolorem doloribus.</p><p>Commodi error quis maiores! Iste temporibus tempore vitae sapiente laborum.</p>',
+      src: 'assets/img/projects/multiversoonline.png',
+      alt: 'Projeto Multiverso Online',
+      title: 'Multiverso Online',
+      heigth: '106px',
+      width: '84px',
+      description: '<p>Projeto desenvolvido para divulgação de serviços.</p><p>Site desenvolvido utilizando framework angular, typescript, html5, css3.</p><p>Desenvolvimento próprio de layout utilizando figma e utilizando css para design responsivo e animações para dar uma suavisada, além de deploy utilizando a hospedagem da hostinger.</p>',
       links: [
         {
-          name: 'Conheça o Blog',
-          href: 'https://vidafullstack.com.br/',
+          name: 'Conheça a Multiverso',
+          href: 'https://multiversoonline.com.br/',
         },
       ],
     },
