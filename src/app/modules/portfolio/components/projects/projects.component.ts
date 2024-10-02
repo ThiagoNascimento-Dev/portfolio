@@ -39,16 +39,16 @@ export class ProjectsComponent {
     },
 
     {
-      src: 'assets/img/projects/vfull.png',
-      alt: 'Projeto Vida FullStack',
-      title: 'Vida FullStack 3',
-      heigth: '51px',
-      width: '100px',
-      description: '<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p><p>Assumenda repellendus nobis vero expedita at magnam ducimus numquam soluta dolorem doloribus.</p><p>Commodi error quis maiores! Iste temporibus tempore vitae sapiente laborum.</p>',
+      src: 'assets/img/projects/maestro-abm.png',
+      alt: 'Projeto Maestro ABM',
+      title: 'Maestro ABM',
+      heigth: '70px',
+      width: '238px',
+      description: '<p>Projeto desenvolvido para simplificar vendas complexas</p><p>Plataforma desenvolvida utilizando angular 8, typescript, html5, css3, scss, bootstrap, integração de Api. </p><p>Desenvolvido a partir de protótipo em figma e seguindo padrões de de UX. utilizando a esteira da AWS como sistema CI/CD.</p>',
       links: [
         {
-          name: 'Conheça o Blog',
-          href: 'https://vidafullstack.com.br/',
+          name: 'Conheça a Maestro ABM',
+          href: 'https://app.maestroabm.com/login',
         },
       ],
     },
