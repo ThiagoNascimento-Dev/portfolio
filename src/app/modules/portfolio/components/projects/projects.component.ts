@@ -125,7 +125,7 @@ export class ProjectsComponent {
       title: 'Lista de tarefas',
       heigth: '106px',
       width: '84px',
-      description: '<p>Projeto de estudo desenvolvido para refinamento das novas nomenculaturas do angular 18.</p><p>Sistema de lista de tarefas utilizando HTML5, SCSS, Angular 18 (Componentização, Inpu, Output, Interface, Signal), Typescrip, Dialog(SweetAlert2)</p><p> Desenvolvimento de projeto utilizando as novas diretrizes do angular 18 e aplicando boas praticas de desenvolvimento, além de deploy utilizando o github pages.</p>',
+      description: '<p>Projeto de estudo desenvolvido para refinamento das novas nomenclatura do angular 18.</p><p>Sistema de lista de tarefas utilizando HTML5, SCSS, Angular 18 (Componentização, Input, Output, Interface, Signal), TypeScrip, Dialog(SweetAlert2).</p><p> Desenvolvimento de projeto utilizando as novas diretrizes do angular 18 e aplicando boas praticas de desenvolvimento, além de deploy utilizando o github pages.</p>',
       links: [
         {
           name: 'Conheça a Lista de tarefas',
