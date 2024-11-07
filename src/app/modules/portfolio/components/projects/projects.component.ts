@@ -2,6 +2,7 @@ import { Component, inject, signal } from '@angular/core';
 
 // Interface
 import { IProjects } from '../../interface/IProjects.interface';
+import { IStudyProjects } from '../../interface/IStudyProjects.interface';
 
 // Material
 import {MatDialog, MatDialogModule} from '@angular/material/dialog';
@@ -116,4 +117,33 @@ export class ProjectsComponent {
       panelClass: EDialogPanelClass.PROJECTS,
     });
   }
+
+  public arrayStudyProjects = signal<IStudyProjects[]>([
+    {
+      src: 'assets/img/projects/lista-de-tarefas.png',
+      alt: 'Projeto de lista de tarefas',
+      title: 'Lista de tarefas',
+      heigth: '106px',
+      width: '84px',
+      description: '<p>Projeto de estudo desenvolvido para refinamento das novas nomenculaturas do angular 18.</p><p>Sistema de lista de tarefas utilizando HTML5, SCSS, Angular 18 (Componentização, Inpu, Output, Interface, Signal), Typescrip, Dialog(SweetAlert2)</p><p> Desenvolvimento de projeto utilizando as novas diretrizes do angular 18 e aplicando boas praticas de desenvolvimento, além de deploy utilizando o github pages.</p>',
+      links: [
+        {
+          name: 'Conheça a Lista de tarefas',
+          href: 'https://thiagonascimento-dev.github.io/lista-de-tarefas/',
+        },
+        {
+          name: 'Link github',
+          href: 'https://github.com/ThiagoNascimento-Dev/lista-de-tarefas',
+        },
+      ],
+    },
+  ]);
+
+  public openDialogStudyProjects(data: IStudyProjects){
+    this.#dialog.open(DialogProjectsComponent, {
+      data,
+      panelClass: EDialogPanelClass.PROJECTS,
+    });
+  }
+
 }
