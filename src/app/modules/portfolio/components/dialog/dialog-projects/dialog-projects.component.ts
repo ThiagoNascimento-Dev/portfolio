@@ -3,12 +3,13 @@ import { MAT_DIALOG_DATA, MatDialogModule, MatDialogRef } from '@angular/materia
 
 // Interface
 import { IProjects } from '../../../interface/IProjects.interface';
+import { CommonModule } from '@angular/common';
 
 
 @Component({
   selector: 'app-dialog-projects',
   standalone: true,
-  imports: [MatDialogModule],
+  imports: [MatDialogModule, CommonModule],
   templateUrl: './dialog-projects.component.html',
   styleUrl: './dialog-projects.component.scss'
 })

@@ -9,7 +9,7 @@
     <article [innerHTML]="getData()?.description"></article>
     <nav>
         @for (item of getData()?.links; track item) {
-            <a [href]="item.href" target="_blank" class="btn btn-primary">
+            <a [href]="item.href" target="_blank" class="btn btn-primary" *ngIf="item.status">
                 {{ item.name }}
             </a>
         }

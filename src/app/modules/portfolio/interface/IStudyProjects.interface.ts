@@ -5,5 +5,5 @@ export interface IStudyProjects {
     heigth: string,
     width: string,
     description: string,
-    links: [{ name: string, href: string },{ name: string, href: string },],
+    links: [{ name: string, href: string, status: boolean },{ name: string, href: string, status: boolean },],
 }

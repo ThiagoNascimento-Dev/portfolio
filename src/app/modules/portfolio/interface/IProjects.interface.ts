@@ -5,5 +5,5 @@ export interface IProjects {
     heigth: string,
     width: string,
     description: string,
-    links: [{ name: string, href: string },],
+    links: [{ name: string, href: string, status?: boolean },],
 }

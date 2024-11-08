@@ -35,6 +35,7 @@ export class ProjectsComponent {
         {
           name: 'Conheça a Multiverso',
           href: 'https://multiversoonline.com.br/',
+          status: true
         },
       ],
     },
@@ -50,6 +51,7 @@ export class ProjectsComponent {
         {
           name: 'Conheça a Maestro ABM',
           href: 'https://app.maestroabm.com/login',
+          status: true
         },
       ],
     },
@@ -130,10 +132,32 @@ export class ProjectsComponent {
         {
           name: 'Conheça a Lista de tarefas',
           href: 'https://thiagonascimento-dev.github.io/lista-de-tarefas/',
+          status: true
         },
         {
           name: 'Link github',
           href: 'https://github.com/ThiagoNascimento-Dev/lista-de-tarefas',
+          status: true
+        },
+      ],
+    },
+    {
+      src: 'assets/img/projects/mfe-angular.png',
+      alt: 'Projeto de microfrontend angular',
+      title: 'Microfrontend angular',
+      heigth: '106px',
+      width: '106px',
+      description: '<p>Projeto de estudo desenvolvido para treinamento de microfrontend com angular 18.</p><p>Microfrontend utilizando rota e ng-template.</p>',
+      links: [
+        {
+          name: 'Sem visualização',
+          href: 'https://thiagonascimento-dev.github.io/lista-de-tarefas/',
+          status: false
+        },
+        {
+          name: 'Link github',
+          href: 'https://github.com/ThiagoNascimento-Dev/configuracao-mfe-angular18',
+          status: true
         },
       ],
     },
