@@ -172,7 +172,7 @@ export class ProjectsComponent {
         {
           name: 'Ver projeto',
           href: 'https://thiagonascimento-dev.github.io/integracao-cep/',
-          status: true
+          status: false
         },
         {
           name: 'Link github',
