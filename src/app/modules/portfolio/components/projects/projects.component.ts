@@ -161,6 +161,26 @@ export class ProjectsComponent {
         },
       ],
     },
+    {
+      src: 'assets/img/projects/api-teste.png',
+      alt: 'Projeto de integração de Api e testes',
+      title: 'Integração de Api e Testes unitários',
+      heigth: '106px',
+      width: '106px',
+      description: '<p>Projeto de estudo desenvolvido para treinamento de integração de Api e testes unitários com angular 18.</p><p>Integração de API (via cep) e realização de teste unitários utilizando Jasmine</p>',
+      links: [
+        {
+          name: 'Ver projeto',
+          href: 'https://thiagonascimento-dev.github.io/integracao-cep/',
+          status: true
+        },
+        {
+          name: 'Link github',
+          href: 'https://github.com/ThiagoNascimento-Dev/integracao-cep',
+          status: true
+        },
+      ],
+    },
   ]);
 
   public openDialogStudyProjects(data: IStudyProjects){
